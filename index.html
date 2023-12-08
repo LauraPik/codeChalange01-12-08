@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="input-group col-4">
+                <!-- pagal varda -->
+                <label class="input-group text-success" for="name-choice">Vardas:</label>
+                <input list="name-list" id="names" name="name-list" placeholder="Suveskite vardą" class="form-control text-primary">
+                <datalist id="name-list">
+
+                </datalist>
+
+                <!-- pagal amziu -->
+                <label class="input-group text-success" for="age-choice">Amžius:</label>
+                <input list="age-list" id="age" name="age-list" placeholder="Suveskite metus" class="form-control text-primary">
+                <datalist id="age-list">
+                    
+
+                </datalist>
+
+                <!-- pagal miesta -->
+                <label class="input-group text-success" for="city-choice">Miestas:</label>
+                <input list="city-list" id="city" name="city-list" placeholder="Suveskite miestą" class="form-control text-primary">
+                <datalist id="city-list">
+                    
+                </datalist>
+            
+            </div>
+            <div class="col-8">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-success">Vardas</th>
+                        <th scope="col" class="text-success">Amžius</th>
+                        <th scope="col" class="text-success">Miestas</th>
+                      </tr>
+                    </thead>
+                    <tbody class="tableBody">
+                     
+                       
+                      
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="file.js"></script>
+  </body>
+</html>
