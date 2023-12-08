@@ -59,7 +59,8 @@ function addRowtoTable(e){
     
     let tbody = document.querySelector('.tableBody');
     
-    if( inputName.value == duomenys[0].vardas || inputAge.value == duomenys[0].amzius || inputCity.value == duomenys[0].miestas ){
+    
+        if( inputName.value == duomenys[0].vardas && inputAge.value == duomenys[0].amzius && inputCity.value == duomenys[0].miestas ){
         let tr = document.createElement('tr');
         tbody.appendChild(tr)
         let tdName = document.createElement('td');
@@ -75,7 +76,7 @@ function addRowtoTable(e){
         tdCity.textContent = duomenys[0].miestas;
 
     }
-    else if(inputName.value == duomenys[1].vardas || inputAge.value == duomenys[1].amzius || inputCity.value == duomenys[1].miestas){
+    else if(inputName.value == duomenys[1].vardas && inputAge.value == duomenys[1].amzius && inputCity.value == duomenys[1].miestas){
         let trOne = document.createElement('tr');
         tbody.appendChild(trOne)
 
@@ -92,7 +93,7 @@ function addRowtoTable(e){
         tdCity.textContent = duomenys[1].miestas;
 
     }
-    else if(inputName.value == duomenys[2].vardas || inputAge.value == duomenys[2].amzius || inputCity.value == duomenys[2].miestas){
+    else if(inputName.value == duomenys[2].vardas && inputAge.value == duomenys[2].amzius && inputCity.value == duomenys[2].miestas){
         let trTwo = document.createElement('tr');
         tbody.appendChild(trTwo)
 
@@ -109,7 +110,7 @@ function addRowtoTable(e){
         tdCity.textContent = duomenys[2].miestas;
 
     }
-    else if(inputName.value == duomenys[3].vardas || inputAge.value == duomenys[3].amzius || inputCity.value == duomenys[3].miestas){
+    else if(inputName.value == duomenys[3].vardas && inputAge.value == duomenys[3].amzius && inputCity.value == duomenys[3].miestas){
         let trThree = document.createElement('tr');
         tbody.appendChild(trThree)
 
